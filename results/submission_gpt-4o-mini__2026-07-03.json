@@ -1,0 +1,21 @@
+{
+  "model": "GPT-4o-mini",
+  "provider": "OpenAI",
+  "model_id": "gpt-4o-mini",
+  "submitter": "anonymous",
+  "date": "2026-07-03",
+  "experiment": "BS-Bench Exp 1 (Medium-50) \u2014 independent replication",
+  "n_sessions": 40,
+  "framing": "None",
+  "metrics": {
+    "ICR_None": 0.093,
+    "VCR": 1.0,
+    "ACR": 0.075,
+    "CG": 92.5,
+    "DF": 0.902,
+    "FCR": 0.75,
+    "TA": 0.78
+  },
+  "tool_call_log_url": "attached as supplement",
+  "reproducibility_notes": "Independent replication with an open-source scorer (the paper's evaluation/metrics.py is not in the public artifact). Environment: verbatim BS-Bench tools (read_file/list_files/delegate_task/batch_verify) and neutral descriptions from exp7_config.json; instruction text 'file_reading/none' verbatim; user-layer template from layers.json; temperature 0.7; max 30 rounds; seeds 1-40 (independent samples; OpenAI seed advisory). ACR is ACR_strict (every file read individually), matching the anchor's individual-read criterion; batch_verify tool-return semantics are reconstructed (truncated real content) since the paper's runner is unpublished. VCR is rule-based with per-session evidence retained; naive rules gave VCR=0.65 (CG=57.5), audit-corrected to VCR=1.0 (CG=92.5) \u2014 a 35pp scorer-sensitivity we report openly. Scorer + runner + all 40 session logs released; see supplement."
+}
