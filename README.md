@@ -57,6 +57,19 @@ n=40 replication above.
 `task_data/simple_10/` is from the BS-Bench v1.0 task suite
 (Shin, 2026, arXiv 2605.01771; data CC BY 4.0, via https://osf.io/mvnq4/).
 
+## Improvement-loop audit adapters
+
+The same dual-channel principle connected to two EXISTING self-improvement
+loops, unmodified — claim channel (the loop's own reported metric) vs verified
+channel (independent re-execution on conditions the loop never saw):
+
+- `loop_audit_openevolve.py` — OpenEvolve (AlphaEvolve-style program evolution).
+  Result: genuine improvement, fully transferred (`score_transfer_gap` 0.0).
+- `loop_audit_dspy.py` — DSPy GEPA (reflective prompt evolution). Connection
+  verified end-to-end; this demo task gave the loop no improvement window.
+
+Details and honest caveats: [results/FINDINGS_loop_audit.md](results/FINDINGS_loop_audit.md).
+
 ## Reproduce
 
 ```bash

@@ -1,3 +1,4 @@
 .inspect_test_logs/
 logs/*.eval
 __pycache__/
+.loop_audit_openevolve/

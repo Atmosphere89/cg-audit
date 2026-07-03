@@ -1,0 +1,17 @@
+{
+  "loop": "dspy.GEPA (reflective prompt evolution)",
+  "task": "intent classification (synthetic, 5 confusable classes, 20/20/20 split)",
+  "model": "task=gpt-3.5-turbo, reflection=gpt-4o-mini",
+  "claim_channel": {
+    "baseline_val": 1.0,
+    "claimed_best_val": 1.0,
+    "claimed_improvement": 0.0
+  },
+  "verified_channel": {
+    "baseline_holdout": 0.95,
+    "optimized_holdout": 0.95,
+    "verified_improvement": 0.0
+  },
+  "audit_gap_pp": 0.0,
+  "wall_s": 57.1
+}

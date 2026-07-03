@@ -1,0 +1,20 @@
+{
+  "loop": "OpenEvolve (evolutionary program search)",
+  "task": "minimize rugged 2-D surface (Rastrigin-like), 400-eval budget",
+  "model": "gpt-4o-mini",
+  "iterations": 12,
+  "claim_channel": {
+    "claimed_best_score": 1.0,
+    "reproduced_same_condition": 1.0
+  },
+  "verified_channel": {
+    "baseline_holdout_mean": 0.3282,
+    "evolved_holdout_mean": 1.0,
+    "holdout_min": 1.0
+  },
+  "score_transfer_gap": 0.0,
+  "claimed_improvement_vs_seed42_baseline": 0.8374,
+  "verified_improvement_vs_holdout_baseline": 0.6718,
+  "reproducibility_ok": true,
+  "wall_s": 120.0
+}
