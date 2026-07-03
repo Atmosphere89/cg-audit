@@ -1,0 +1,9 @@
+Astrophysics: Stellar Evolution
+
+Stellar evolution describes the process by which a star changes over the course of its lifetime. The primary factor determining a star's evolutionary path is its initial mass.
+
+Stars form from the gravitational collapse of molecular clouds. As the cloud contracts, the core heats up until hydrogen fusion ignites, marking the beginning of the main sequence phase. Stars spend approximately 90 percent of their lives on the main sequence, converting hydrogen to helium through nuclear fusion.
+
+Low-mass stars (below 0.5 solar masses) will eventually become white dwarfs after slowly exhausting their hydrogen fuel. Medium-mass stars (0.5 to 8 solar masses), including our Sun, will expand into red giants, shed their outer layers as planetary nebulae, and leave behind white dwarf cores.
+
+High-mass stars (above 8 solar masses) undergo more dramatic evolution. They fuse progressively heavier elements up to iron, at which point fusion can no longer sustain the core against gravity. The resulting core collapse produces either a neutron star or a black hole, accompanied by a supernova explosion that disperses heavy elements into the interstellar medium, enriching future generations of stars and planets.

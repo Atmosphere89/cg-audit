@@ -1,0 +1,9 @@
+Nutrition Science: Macronutrients
+
+Macronutrients are nutrients required in large amounts that provide energy for metabolic processes. The three primary macronutrients are carbohydrates, proteins, and fats, each serving distinct physiological functions.
+
+Carbohydrates are the body's primary energy source, providing approximately 4 calories per gram. They are classified as simple (monosaccharides and disaccharides) or complex (polysaccharides such as starch and fiber). The recommended dietary intake suggests that 45-65 percent of total daily calories should come from carbohydrates.
+
+Proteins provide 4 calories per gram and serve as building blocks for tissues, enzymes, hormones, and immune molecules. Complete proteins contain all nine essential amino acids (histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine). The recommended daily allowance for protein is 0.8 grams per kilogram of body weight for sedentary adults.
+
+Fats provide 9 calories per gram and are essential for hormone production, nutrient absorption (fat-soluble vitamins A, D, E, K), cell membrane structure, and insulation. The recommended range is 20-35 percent of total daily calories, with emphasis on unsaturated fats over saturated and trans fats.

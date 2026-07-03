@@ -1,0 +1,9 @@
+Urban Planning: Transit-Oriented Development
+
+Transit-Oriented Development (TOD) is an urban planning approach that maximizes the amount of residential, business, and leisure space within walking distance of public transport. Typically, TOD is defined as development within a quarter-mile to half-mile radius of a transit station.
+
+The core principles of TOD include mixed-use development, higher density near transit, pedestrian-friendly design, and reduced parking requirements. Successful TOD projects have been implemented in cities such as Portland (Pearl District), Arlington (Rosslyn-Ballston corridor), and Curitiba (Bus Rapid Transit system).
+
+Research indicates that TOD can reduce vehicle miles traveled by 20-40 percent compared to conventional suburban development. Property values within TOD areas typically show premiums of 10-25 percent, which can help finance transit improvements through value capture mechanisms.
+
+Challenges include gentrification and displacement of existing residents, the need for significant upfront infrastructure investment, and coordination between multiple government agencies and private developers. Successful TOD requires integrated planning across transportation, housing, and economic development policies.

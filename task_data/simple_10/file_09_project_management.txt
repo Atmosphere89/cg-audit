@@ -1,0 +1,9 @@
+Project Management: Agile Methodology
+
+Agile methodology is an iterative approach to project management and software development that emphasizes flexibility, collaboration, and customer feedback. The Agile Manifesto, published in 2001, establishes four core values: individuals and interactions over processes and tools; working software over comprehensive documentation; customer collaboration over contract negotiation; and responding to change over following a plan.
+
+Scrum is the most widely adopted Agile framework. It organizes work into fixed-length iterations called sprints (typically 2-4 weeks). Key roles include the Product Owner (defines priorities), the Scrum Master (facilitates the process), and the Development Team (delivers the work). Key ceremonies include sprint planning, daily standups, sprint review, and sprint retrospective.
+
+Kanban is another popular Agile approach that visualizes workflow on a board with columns representing stages. Unlike Scrum, Kanban does not prescribe fixed iterations but limits work-in-progress (WIP) at each stage to maintain flow and identify bottlenecks.
+
+Studies indicate that Agile adoption can improve project success rates by 28 percent compared to traditional waterfall approaches, primarily through earlier detection of issues and more frequent stakeholder alignment.

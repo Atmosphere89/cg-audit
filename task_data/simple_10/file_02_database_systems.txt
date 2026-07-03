@@ -1,0 +1,9 @@
+Database Systems: Normalization
+
+Database normalization is a systematic approach to organizing data in a relational database to reduce data redundancy and improve data integrity. The process involves dividing large tables into smaller tables and defining relationships between them.
+
+First Normal Form (1NF) requires that each table cell contains a single value and each record is unique. Second Normal Form (2NF) requires that the table is in 1NF and every non-key attribute is fully functionally dependent on the primary key. Third Normal Form (3NF) requires that the table is in 2NF and no transitive dependency exists.
+
+Boyce-Codd Normal Form (BCNF) is a stronger version of 3NF where every determinant is a candidate key. While higher normal forms exist (4NF, 5NF), most practical database designs aim for 3NF or BCNF as a balance between normalization benefits and query performance.
+
+Denormalization is sometimes deliberately applied in data warehousing and read-heavy workloads where query performance is prioritized over update efficiency. This involves strategically reintroducing redundancy to reduce the number of joins required for common queries.

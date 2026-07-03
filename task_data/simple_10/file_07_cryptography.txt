@@ -1,0 +1,9 @@
+Cryptography: Public Key Infrastructure
+
+Public Key Infrastructure (PKI) is a framework for creating, managing, distributing, using, storing, and revoking digital certificates. PKI enables secure electronic communication and is fundamental to internet security protocols such as TLS/SSL.
+
+The system relies on asymmetric cryptography, which uses a pair of mathematically related keys: a public key (shared openly) and a private key (kept secret). Data encrypted with the public key can only be decrypted with the corresponding private key, and vice versa.
+
+Certificate Authorities (CAs) are trusted third parties that verify the identity of certificate holders and issue digital certificates. These certificates bind a public key to an identity, enabling parties to trust the authenticity of public keys without prior direct exchange. The chain of trust extends from root CAs through intermediate CAs to end-entity certificates.
+
+Common applications include HTTPS websites, email encryption (S/MIME), code signing, VPN authentication, and document signing. The X.509 standard defines the format for public key certificates. Certificate revocation is handled through Certificate Revocation Lists (CRLs) or the Online Certificate Status Protocol (OCSP).

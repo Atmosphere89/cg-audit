@@ -1,0 +1,9 @@
+International Trade: Comparative Advantage
+
+The theory of comparative advantage, developed by David Ricardo in 1817, is a fundamental principle of international trade. It states that countries should specialize in producing goods for which they have the lowest opportunity cost, even if they do not have an absolute advantage in producing any good.
+
+For example, if Country A can produce both wine and cloth more efficiently than Country B, trade can still be beneficial. If Country A is relatively more efficient at producing wine than cloth (compared to Country B), then Country A should specialize in wine and Country B in cloth. Both countries benefit from trading.
+
+The Heckscher-Ohlin model extends this theory by explaining comparative advantage through differences in factor endowments (land, labor, capital). Countries export goods that intensively use their abundant factors and import goods that intensively use their scarce factors.
+
+Modern trade theory incorporates economies of scale, product differentiation, and imperfect competition. Paul Krugman's New Trade Theory demonstrates that even identical countries can benefit from trade through increased variety and lower costs from economies of scale.

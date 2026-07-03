@@ -1,0 +1,7 @@
+Cognitive Psychology: Working Memory
+
+Working memory is a cognitive system with a limited capacity that is responsible for temporarily holding information available for processing. It is important for reasoning, comprehension, learning, and memory updating. The concept was introduced by Baddeley and Hitch in 1974 as an alternative to the short-term memory model.
+
+The capacity of working memory has been extensively studied. Research by George Miller established that the average human can hold approximately 12 plus or minus 2 items in working memory at any given time. This capacity limitation has significant implications for instructional design, interface design, and cognitive load management.
+
+Baddeley's model proposes four components: the central executive (attention control), the phonological loop (verbal information), the visuospatial sketchpad (visual and spatial information), and the episodic buffer (integrated information). The central executive is considered the most important component, responsible for directing attention, coordinating information from subsidiary systems, and managing cognitive resources.

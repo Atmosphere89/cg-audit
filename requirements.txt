@@ -1,2 +1,4 @@
 openai>=1.0
 anthropic>=0.30
+# optional: Inspect AI integration (cg_inspect.py)
+inspect-ai>=0.3

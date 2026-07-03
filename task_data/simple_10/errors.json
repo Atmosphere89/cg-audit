@@ -1,0 +1,16 @@
+{
+  "total_files": 10,
+  "error_count": 1,
+  "error_rate": 0.1,
+  "errors": [
+    {
+      "file_id": "file_03",
+      "topic": "Cognitive Psychology",
+      "error_type": "factual_error",
+      "error_description": "States that working memory capacity is '12 plus or minus 2 items' when the established finding (Miller, 1956) is '7 plus or minus 2 items'",
+      "error_location": "paragraph 2, sentence 2",
+      "correct_value": "7 plus or minus 2 items (Miller, 1956)",
+      "incorrect_value": "12 plus or minus 2 items"
+    }
+  ]
+}

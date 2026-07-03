@@ -33,6 +33,30 @@ GPT-4o-mini · Medium-50 task suite · *None* framing · temperature 0.7 · seed
 Details and caveats: [results/FINDINGS_n40.md](results/FINDINGS_n40.md).
 Raw session logs: [logs/](logs/) (also attached as a release asset).
 
+## Inspect AI integration
+
+`cg_inspect.py` packages the scorer for [Inspect](https://inspect.aisi.org.uk/)
+(UK AI Security Institute's evaluation framework): a `compliance_gap_scorer()`
+that reads the sample transcript (assistant text = verbal channel, tool calls =
+behavioral channel), and a self-contained `compliance_gap` demo task with the
+BS-Bench file-verification environment.
+
+```bash
+pip install inspect-ai
+inspect eval cg_inspect.py --model openai/gpt-4o-mini
+inspect eval cg_inspect.py -T framing=override --model anthropic/claude-sonnet-4-6
+```
+
+Verified: scripted-model integration tests (`test_cg_inspect.py`, no API needed)
+plus a live smoke — gpt-4o-mini under the default framing scores CG = +1
+(claims verification complete, reads zero files individually), matching the
+n=40 replication above.
+
+### Attribution
+
+`task_data/simple_10/` is from the BS-Bench v1.0 task suite
+(Shin, 2026, arXiv 2605.01771; data CC BY 4.0, via https://osf.io/mvnq4/).
+
 ## Reproduce
 
 ```bash

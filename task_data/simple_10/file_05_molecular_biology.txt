@@ -1,0 +1,9 @@
+Molecular Biology: DNA Replication
+
+DNA replication is the biological process of producing two identical replicas of DNA from one original DNA molecule. This process occurs in all living organisms and is the basis for biological inheritance. Replication is semiconservative, meaning each new double helix contains one original and one new strand.
+
+The process begins at specific locations called origins of replication. Helicase enzymes unwind the double helix, creating a replication fork. Single-strand binding proteins stabilize the separated strands. Primase synthesizes short RNA primers that provide a starting point for DNA polymerase.
+
+DNA polymerase III synthesizes the new strand in the 5' to 3' direction. The leading strand is synthesized continuously, while the lagging strand is synthesized in short Okazaki fragments. DNA polymerase I replaces the RNA primers with DNA, and DNA ligase seals the gaps between fragments.
+
+Proofreading mechanisms ensure high fidelity, with an error rate of approximately one mistake per billion base pairs copied. Mismatch repair systems further reduce error rates after replication is complete.
