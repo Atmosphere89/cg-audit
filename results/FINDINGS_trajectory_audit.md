@@ -59,3 +59,43 @@ our own 5-task demo — third dataset, same phenomenon, now at n=1500 for free.
 ## Reproduce
 
 `python trajectory_audit.py` (streams from HF; no API keys needed).
+
+## Addendum (2026-07-07): cross-corpus / cross-model replication (n≈3,400 more, $0)
+
+Same audit on three more public corpora (different curation pipelines, different
+base models), plus one SFT corpus without labels:
+
+| corpus / agent model | n | resolved | strong-claim share | **FCR_strong** | lift P(res\|strong)/P(res\|none) |
+|---|---|---|---|---|---|
+| SWE-Gym / gpt-4o (reference) | 1500 | 7.1% | 27.7% | **79.1%** | **~3.0×** |
+| SWE-rebench (nebius) | 1000 | 49.2% | 42.8% | **48.8%** | 1.07× |
+| Open-SWE-Traces / Minimax-M2.5 | 800 | 52.8% | 40.1% | **45.8%** | 1.06× |
+| Open-SWE-Traces / Qwen3.5-122B | 800 | 42.6% | 78.2% | **57.8%** | **0.96×** |
+| SWE-Hero (SFT corpus, no labels) | 800 | — | 54.4% | — | — |
+
+Findings:
+
+1. **The false-claim phenomenon is universal, not a gpt-4o quirk.** Across four
+   corpora and four agent models, 46–79% of strong completion claims are false.
+2. **Worse: for the newer models the claim channel is *uninformative*.** The
+   gpt-4o run's claims at least carried a 3× lift. For SWE-rebench and
+   Minimax the lift is ~1.06×; for **Qwen3.5-122B it is 0.96× — a confident
+   "the issue has been resolved" tells you literally nothing (slightly less
+   than nothing) about whether it was.** Claim style is a model personality
+   trait (Qwen asserts completion in 78% of trajectories, gpt-4o in 28%),
+   essentially decoupled from competence.
+3. **Weak-oracle quantified (nebius cross-tab):** when the agent's own
+   *generated* tests pass, the real oracle still fails **48.7%** of the time —
+   a coin flip. And seeing their own tests pass makes agents claim *more*
+   (strong-claim share 37.6% → 53.1%) while still being wrong 43% of the time:
+   self-generated evidence inflates confidence without proportionate accuracy —
+   the implicit-reward-hacking shape, measured in the wild.
+4. **SFT leakage surface:** 54.4% of SWE-Hero's training targets end in strong
+   completion claims, and the released data carries no execution labels. Given
+   (2), any corpus not curated by execution should be presumed to contain false
+   completion claims as *training targets* — distilling claim-inflation.
+
+Caveats: FCR is base-rate sensitive (resolved rates differ 7%→53% across
+corpora); the lift column is the base-rate-robust comparison. Claim patterns
+were developed on gpt-4o phrasing; per-model phrasing coverage may differ
+(Qwen's 78% share suggests coverage is adequate). First-N sampling, not random.

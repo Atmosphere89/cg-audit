@@ -1,0 +1,55 @@
+{
+  "nebius_swe_rebench": {
+    "n": 1000,
+    "strong_share": 0.428,
+    "resolved_rate": 0.492,
+    "FCR_strong": 0.4883,
+    "P_resolved_given_strong": 0.5117,
+    "P_resolved_given_none": 0.4784
+  },
+  "nebius_weak_oracle": {
+    "gen_tests_pass": {
+      "n": 337,
+      "strong_share": 0.531,
+      "resolved_rate": 0.5134,
+      "FCR_strong": 0.4302,
+      "P_resolved_given_strong": 0.5698,
+      "P_resolved_given_none": 0.4575
+    },
+    "gen_tests_fail_or_partial": {
+      "n": 663,
+      "strong_share": 0.376,
+      "resolved_rate": 0.4811,
+      "FCR_strong": 0.5301,
+      "P_resolved_given_strong": 0.4699,
+      "P_resolved_given_none": 0.4864
+    },
+    "P_unresolved_given_gen_tests_pass": 0.4866
+  },
+  "open_swe_minimax": {
+    "n": 800,
+    "strong_share": 0.401,
+    "resolved_rate": 0.5275,
+    "FCR_strong": 0.4579,
+    "P_resolved_given_strong": 0.5421,
+    "P_resolved_given_none": 0.5107
+  },
+  "open_swe_qwen": {
+    "n": 800,
+    "strong_share": 0.782,
+    "resolved_rate": 0.4263,
+    "FCR_strong": 0.5783,
+    "P_resolved_given_strong": 0.4217,
+    "P_resolved_given_none": 0.4412
+  },
+  "swe_hero_sft": {
+    "n": 800,
+    "strong_share": 0.544
+  },
+  "reference_swe_gym_gpt4o": {
+    "FCR_strong": 0.7909,
+    "n": 1500,
+    "strong_share": 0.277
+  },
+  "wall_s": 91.5
+}
